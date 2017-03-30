@@ -1,5 +1,8 @@
 <html>
+<head>
+<link rel="stylesheet" type="text/css" href="styles/miEstilo.css"/>
+</head>
 <body>
-<h2>Hola Mundo</h2>
+Hola
 </body>
 </html>
