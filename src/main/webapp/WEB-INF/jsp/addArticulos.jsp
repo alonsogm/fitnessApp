@@ -10,14 +10,11 @@
 <link rel="stylesheet" type="text/css" href="styles/miEstilo.css"/>
 </head>
 <body>
-	<div class="cabeza">
+	<div id="header">
 		Tu tiendita
-	</div>
-	<div class="carrito">
+	</div>	
 		
-	</div>
-		
-	<div class="cuerpo">
+	<div id="main">
 	<form:form commandName="articulos">
 		<table>
 			<tr>
@@ -44,11 +41,15 @@
 				<td><img src="imagenes/Huawei-G-Play.jpg"title="Huawei-G-Play"></td>
 				<td> <form:checkbox path="nombre" value="Huawei-G-Play"/> </td>
 			</tr>
-			<tr>
-				<td> <input type="submit" value="Comprar"> </td>
-			</tr>
 		</table>
+		
+		<input class="compra" type="submit" value="Comprar">
+		
 		</form:form>
+	</div>
+	
+	<div id="footer">
+		Todos los derechos reservados
 	</div>
 	
 </body>
